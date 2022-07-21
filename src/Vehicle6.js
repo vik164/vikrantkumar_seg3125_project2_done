@@ -97,13 +97,13 @@ const VehiclePage6 = () => {
                             </tbody>
                         </Table>
                         <Button size='lg' onClick={(event) => handleButton(event.target.value)} style={{width:'49%', marginBottom:10, marginTop:10, marginRight:2}}> Back </Button>
-                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2#/Reserve"> Reserve Now </Button>
+                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2_done#/Reserve"> Reserve Now </Button>
                     </Col>
                     <Col md={1}></Col>
                     <Col md={4}>
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qKWb0dLaxKg" style={{width:'100%', height:'50%', paddingBottom: 10}}></iframe>
                         <p style={{color:"white"}}>One can argue that the Buggati Veyron 16.4 was a car that marked the beginning of a new era for supercars, sports cars, and cars in general. Before that car was put into production, the world wouldn't even imagine that a car with a V16 engine would be real and drivable. A world record for a 253 mph top speed later, the world was proven wrong. The Veyron has become just one of those exotic car names that everyone knows.</p>
-                        <p style={{color:"white"}}><strong> Rental Price: $500 per day <br></br>Insurance Cost: $250 per day</strong></p>
+                        <p style={{color:"white"}}><strong> Rental Price: $1000 per day <br></br>Insurance Cost: $300 per day</strong></p>
 
                     </Col>
                 </Row>

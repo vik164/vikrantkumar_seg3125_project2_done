@@ -97,13 +97,13 @@ const VehiclePage3 = () => {
                             </tbody>
                         </Table>
                         <Button size='lg' onClick={(event) => handleButton(event.target.value)} style={{width:'49%', marginBottom:10, marginTop:10, marginRight:2}}> Back </Button>
-                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2#/Reserve"> Reserve Now </Button>
+                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2_done#/Reserve"> Reserve Now </Button>
                     </Col>
                     <Col md={1}></Col>
                     <Col md={4}>
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gb9DlnSSoto" style={{width:'100%', height:'50%', paddingBottom: 10}}></iframe>
                         <p style={{color:"white"}}>Gone are the days of the front-engined Corvette, but we're glad that they at least went out with quite the bang. The ZR1 configuration of the Vette gave its customers 755 horsepower thanks to a 6.2 liter LT5 engine and a 2.6 liter Eaton supercharger. Paired with magnetic ride control, front splitter, and a fixed wing for downforce and you've got an American performance beast good for 215 mph.</p>
-                        <p style={{color:"white"}}><strong> Rental Price: $250 per day <br></br>Insurance Cost: $100 per day</strong></p>
+                        <p style={{color:"white"}}><strong> Rental Price: $450 per day <br></br>Insurance Cost: $150 per day</strong></p>
                     </Col>
                 </Row>
             </Container>

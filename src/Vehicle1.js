@@ -98,13 +98,13 @@ const VehiclePage1 = () => {
                             </tbody>
                         </Table>
                         <Button size='lg' onClick={(event) => handleButton(event.target.value)} style={{width:'49%', marginBottom:10, marginTop:10, marginRight:2}}> Back </Button>
-                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2#/Reserve"> Reserve Now </Button>
+                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2_done#/Reserve"> Reserve Now </Button>
                     </Col>
                     <Col md={1}></Col>
                     <Col md={4}>
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HfQx-AnXUZc" style={{width:'100%', height:'44%', paddingBottom: 10}}></iframe>
                         <p style={{color:"white"}}>One of the most iconic cars from an exotic car brand that everyone knows. This car was by far on more bedroom walls in the 80s than it was in garages because it was just as much a pop culture icon as it was an incredible car. It had an incredible 26-year lifespan, which was thanks to the fact that the Countach was a car that kept up with everything around it. By the time it was discontinued, it still clocked in incredible numbers among its much younger peers with a 185 mph top speed and 4.7 seconds from a standstill to 60 mph. </p>
-                        <p style={{color:"white"}}><strong> Rental Price: $400 per day <br></br>Insurance Cost: $150 per day</strong></p>
+                        <p style={{color:"white"}}><strong> Rental Price: $800 per day <br></br>Insurance Cost: $150 per day</strong></p>
                     </Col>
                 </Row>
             </Container>

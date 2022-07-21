@@ -29,7 +29,7 @@ const SurveyPage = () => {
                         <h5 style={{marginTop:10}}>Thank you for completing the feedback survey.</h5>
                         <img src={require("./Images/v4.jpg")} style={{width: '45%'}} alt='help'></img><br></br>
                         
-                        <Button size='lg' style={{width:'23%', marginTop:10}} href="/vikrantkumar_seg3125_project2/#/Home"> Back to home </Button>
+                        <Button size='lg' style={{width:'23%', marginTop:10}} href="/vikrantkumar_seg3125_project2_done/#/Home"> Back to home </Button>
                     </Alert>
 
                     <Col className='d-flex align-items-center justify-content-center' style={{display:'block'}}>
@@ -40,8 +40,7 @@ const SurveyPage = () => {
                                 <Form.Check type='radio' name='option1' label='No'></Form.Check>
                             </Card.Body>
                         </Card>
-                    </Col>
-                    
+                    </Col>                  
                 </Row>
                 <Row className='d-flex align-items-center justify-content-center' style={{marginTop:20, display:'block'}}>
                     <Col className='d-flex align-items-center justify-content-center'>
@@ -94,16 +93,13 @@ const SurveyPage = () => {
                         </Card>
                     </Col>
                 </Row>
-
                 <Row className='d-flex align-items-center justify-content-center' style={{marginTop:20, marginBottom:-10}}>
                     <Col className="d-flex justify-content-center"> 
                         <FloatingLabel id="comment1">Any additional feedback?
                                 <Form.Control id="comment" type="comment" style={{height:150, width:640}}/>
                         </FloatingLabel>
-                    </Col>
-                    
-                </Row>
-                
+                    </Col>                   
+                </Row>            
                 <Row className='d-flex align-items-center justify-content-center' style={{marginTop:20}}>
                     <Col md={4}>
                         <Button id="subButton" size='lg' style={{width:'100%'}} onClick={(event) => handleSubmit3(event.target.value)}> Submit </Button>

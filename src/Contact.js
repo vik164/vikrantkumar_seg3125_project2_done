@@ -20,6 +20,12 @@ const ContactPage = () => {
             document.getElementById('subButton').style.display = "none";
             document.getElementById('selOptions').style.display = "none";
         }
+        else{
+            document.getElementById('emails').style.borderColor = "red";
+            document.getElementById('phoneNumber').style.borderColor = "red";
+            document.getElementById('lname').style.borderColor = "red";
+            document.getElementById('fname').style.borderColor = "red";
+        }
     }
 
     const handleSubmit2 = (event) => {
@@ -83,10 +89,25 @@ const ContactPage = () => {
             document.getElementById('subButton').disabled = false;
         }
     }
+
+    const handleFname = (event) => {
+        setFname(event);
+        if(fname != ''){
+            document.getElementById('fname').style.borderColor = "lightgrey";
+        }
+    }
+    const handleLname = (event) => {
+        setLname(event);
+        if(lname != ''){
+            document.getElementById('lname').style.borderColor = "lightgrey";
+        }
+    }
+
     window.scrollTo(0, 0);
     return ( 
         <div className="contact">
             <h1 className="text-center" style={{fontFamily:"serif", marginTop:15}}><strong> Contact Us </strong></h1>
+
             <Container fluid style={{fontFamily:"serif"}}>
                 <Row className='d-flex align-items-center justify-content-center'>
                     <Alert id="successMessage" variant='success' style={{display:'none', width: '75%', textAlign: 'center', marginBottom:-60}}>
@@ -95,14 +116,14 @@ const ContactPage = () => {
                     </Alert>
 
                     <Col md={4}>
-                            <FloatingLabel label="First Name" id="fname1">
-                                <Form.Control id="fname" size="lg" type="fname" value={fname} onChange={(event) => setFname(event.target.value)}/>
+                            <FloatingLabel label="First Name*" id="fname1">
+                                <Form.Control id="fname" size="lg" type="fname" value={fname} onChange={(event) => handleFname(event.target.value)}/>
                             </FloatingLabel>
                     </Col>
                     <Col md={4}>
                         <Form>
-                            <FloatingLabel label="Last Name" id="lname1">
-                                <Form.Control id="lname" size="lg" type="lname" value={lname} onChange={(event) => setLname(event.target.value)}/>
+                            <FloatingLabel label="Last Name*" id="lname1">
+                                <Form.Control id="lname" size="lg" type="lname" value={lname} onChange={(event) => handleLname(event.target.value)}/>
                             </FloatingLabel>
                         </Form>
                     </Col>
@@ -110,8 +131,9 @@ const ContactPage = () => {
                 <Row className='d-flex align-items-center justify-content-center' style={{marginTop:20}}>
                     <Col md={4}>
                         <Form>
-                            <FloatingLabel label="Phone Number" id="phoneNumber1">
+                            <FloatingLabel label="Phone Number*" id="phoneNumber1">
                                 <Form.Control id="phoneNumber" size="lg" type="phoneNum" value={phoneNum} maxLength={10} onChange={(event) => handleSubmit(event.target.value)}/>
+                                <a><strong>FORMAT: ##########</strong></a>
                             </FloatingLabel>
                         </Form>
                     </Col>
@@ -125,6 +147,7 @@ const ContactPage = () => {
                                     <option value="3">Friend</option>
                                     <option value="4">Other</option>
                                 </Form.Select>
+                                <p style={{marginTop:24}}></p>
                             </FloatingLabel>
                         </Form>
                     </Col>
@@ -132,8 +155,9 @@ const ContactPage = () => {
                 <Row className='d-flex align-items-center justify-content-center' style={{marginTop:20}}>
                     <Col md={8}>
                         <Form>
-                            <FloatingLabel label="Email" id="emails1">
+                            <FloatingLabel label="Email*" id="emails1">
                                 <Form.Control id="emails" type="email" value={email} onChange={(event) => handleSubmit2(event.target.value)}/>
+                                <a><strong>FORMAT: someone@example.ca</strong></a>
                             </FloatingLabel>
                         </Form>
                     </Col>

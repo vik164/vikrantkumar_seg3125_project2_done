@@ -97,13 +97,13 @@ const VehiclePage3 = () => {
                             </tbody>
                         </Table>
                         <Button size='lg' onClick={(event) => handleButton(event.target.value)} style={{width:'49%', marginBottom:10, marginTop:10, marginRight:2}}> Back </Button>
-                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2#/Reserve"> Reserve Now </Button>
+                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2_done#/Reserve"> Reserve Now </Button>
                     </Col>
                     <Col md={1}></Col>
                     <Col md={4}>
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/V1FSMIxEbAM" style={{width:'100%', height:'50%', paddingBottom: 10}}></iframe>
                         <p style={{color:"white"}}>With a melodic V10 engine designed by Lamborghini and the perfect proportions of every enthusiast's grand touring dreams, the Dodge Viper is a hard formula to beat. Add the ACR package, and it's even harder. With fewer bells and whistles, and a laser focus on speed, the ACR offers its driver the most downforce of any production car at top speed, which is 1,763 pounds at 177 mph.</p>
-                        <p style={{color:"white"}}><strong> Rental Price: $300 per day <br></br>Insurance Cost: $150 per day</strong></p>
+                        <p style={{color:"white"}}><strong> Rental Price: $500 per day <br></br>Insurance Cost: $150 per day</strong></p>
                     </Col>
                 </Row>
             </Container>

@@ -97,13 +97,13 @@ const VehiclePage4 = () => {
                             </tbody>
                         </Table>
                         <Button size='lg' onClick={(event) => handleButton(event.target.value)} style={{width:'49%', marginBottom:10, marginTop:10, marginRight:2}}> Back </Button>
-                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2#/Reserve"> Reserve Now </Button>
+                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2_done#/Reserve"> Reserve Now </Button>
                     </Col>
                     <Col md={1}></Col>
                     <Col md={4}>
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VKjfkZzp9EM" style={{width:'100%', height:'50%', paddingBottom: 10}}></iframe>
                         <p style={{color:"white"}}>Any childhood 'Need for Speed' fans who grew up with iconic titles like 'Carbon' and 'Most Wanted' know that there isn't a car quite like the Porsche Carrera GT. Its incredible looks have stood the test of time, and its sub-4-second 0-60 stat ensures that the Carrera GT doesn't waste any. The Carrera GT is, beyond a doubt, a pure icon in Porsche history. This supercar list wouldn't be complete without the Carrera GT.</p>
-                        <p style={{color:"white"}}><strong> Rental Price: $250 per day <br></br>Insurance Cost: $100 per day</strong></p>
+                        <p style={{color:"white"}}><strong> Rental Price: $450 per day <br></br>Insurance Cost: $150 per day</strong></p>
                     </Col>
                 </Row>
             </Container>

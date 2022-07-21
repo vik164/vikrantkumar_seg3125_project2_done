@@ -98,13 +98,13 @@ const VehiclePage3 = () => {
                             </tbody>
                         </Table>
                         <Button size='lg' onClick={(event) => handleButton(event.target.value)} style={{width:'49%', marginBottom:10, marginTop:10, marginRight:2}}> Back </Button>
-                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2#/Reserve"> Reserve Now </Button>
+                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2_done#/Reserve"> Reserve Now </Button>
                     </Col>
                     <Col md={1}></Col>
                     <Col md={4}>
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qu0-gmfb_uI" style={{width:'100%', height:'50%', paddingBottom: 10}}></iframe>
                         <p style={{color:"white"}}>Having raced for McLaren's F1 team during the peak of his F1 career, the late and great Aryton Senna has an incredible legacy in the McLaren brand. That's why when they set out to build one of the most powerful and capable track-focused cars the world had ever seen, it was him they wanted to honor. With 2.8 seconds to 60 mph and less than 10 seconds for a quarter mile, the Senna lives up to its name.</p>
-                        <p style={{color:"white"}}><strong> Rental Price: $450 per day <br></br>Insurance Cost: $200 per day</strong></p>
+                        <p style={{color:"white"}}><strong> Rental Price: $850 per day <br></br>Insurance Cost: $200 per day</strong></p>
                     </Col>
                 </Row>
             </Container>

@@ -97,13 +97,13 @@ const VehiclePage3 = () => {
                             </tbody>
                         </Table>
                         <Button size='lg' onClick={(event) => handleButton(event.target.value)} style={{width:'49%', marginBottom:10, marginTop:10, marginRight:2}}> Back </Button>
-                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2#/Reserve"> Reserve Now </Button>
+                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2_done#/Reserve"> Reserve Now </Button>
                     </Col>
                     <Col md={1}></Col>
                     <Col md={4}>
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B3cZu6lnl8Y" style={{width:'100%', height:'50%', paddingBottom: 10}}></iframe>
                         <p style={{color:"white"}}>The hybrid "holy trinity" of hypercars was likely the most important thing to happen in the 2010s for auto enthusiasts. The Porsche 918 Spyder was one of the exotic cars that redefined hard and fast beliefs in the car world, most importantly the one that hybrids were boring. The 918 used it's electric capacity to complement its gas engine and achieve the world's first sub-7-minute lap around the Ring for a street-legal production car.</p>
-                        <p style={{color:"white"}}><strong> Rental Price: $350 per day <br></br>Insurance Cost: $150 per day</strong></p>
+                        <p style={{color:"white"}}><strong> Rental Price: $700 per day <br></br>Insurance Cost: $250 per day</strong></p>
 
                     </Col>
                 </Row>

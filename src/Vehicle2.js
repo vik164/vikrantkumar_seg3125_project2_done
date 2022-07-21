@@ -94,13 +94,13 @@ const VehiclePage2 = () => {
                             </tbody>
                         </Table>
                         <Button size='lg' onClick={(event) => handleButton(event.target.value)} style={{width:'49%', marginBottom:10, marginTop:10, marginRight:2}}> Back </Button>
-                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2#/Reserve"> Reserve Now </Button>
+                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2_done#/Reserve"> Reserve Now </Button>
                     </Col>
                     <Col md={1}></Col>
                     <Col md={4}>
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fTaP6YzESbk" style={{width:'100%', height:'50%', paddingBottom: 10}}></iframe>
                         <p style={{color:"white"}}>Being the last car that the legendary Enzo Ferrari would ever oversee the development of, the Ferrari F40 couldn't disappoint. And with 4.2 seconds to 60 miles per hour, a 197 mph top speed, and the ultimate street-legal race car experience for its time, the Ferrari F40 went on to be one of the most desirable Ferraris to ever exist and one of the best supercars of all time.</p>
-                        <p style={{color:"white"}}><strong> Rental Price: $350 per day <br></br>Insurance Cost: $150 per day</strong></p>
+                        <p style={{color:"white"}}><strong> Rental Price: $750 per day <br></br>Insurance Cost: $200 per day</strong></p>
                     </Col>
                 </Row>
             </Container>

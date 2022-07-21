@@ -10,32 +10,32 @@ const VehiclePage3 = () => {
     }
     return ( 
         <div className="vehicle1">
-            <h1 className="text-center" style={{fontFamily:"serif", marginTop:15}}><strong> Lexus LFA </strong></h1>
+            <h1 className="text-center" style={{fontFamily:"serif", marginTop:15}}><strong> Cadillac Escalade Limousine </strong></h1>
             <Container fluid style={{fontFamily:"serif"}} >
                 <Row className='bg-dark justify-content-center' style={{padding:20}}>
                     <Col md={true}></Col>
                     <Col md={9}>
                         <Carousel>
                             <Carousel.Item>
-                                <img className='d-block w-100' src={require("./CarImages/x1.jpg")} alt='image1'></img>
+                                <img className='d-block w-100' src={require("./CarImages/lim2.jpg")} alt='image1'></img>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className='d-block w-100' src={require("./CarImages/x2.jpg")} alt='image2'></img>
+                                <img className='d-block w-100' src={require("./CarImages/lim1.jpeg")} alt='image2'></img>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className='d-block w-100' src={require("./CarImages/x3.jpg")} alt='image3'></img>
+                                <img className='d-block w-100' src={require("./CarImages/lim3.jpg")} alt='image3'></img>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className='d-block w-100' src={require("./CarImages/x4.jpg")} alt='image4'></img>
+                                <img className='d-block w-100' src={require("./CarImages/lim4.jpg")} alt='image4'></img>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className='d-block w-100' src={require("./CarImages/x5.jpg")} alt='image5'></img>
+                                <img className='d-block w-100' src={require("./CarImages/lim5.jpeg")} alt='image5'></img>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className='d-block w-100' src={require("./CarImages/x6.jpg")} alt='image6'></img>
+                                <img className='d-block w-100' src={require("./CarImages/lim6.jpeg")} alt='image6'></img>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className='d-block w-100' src={require("./CarImages/x7.jpg")} alt='image7'></img>
+                                <img className='d-block w-100' src={require("./CarImages/lim7.jpeg")} alt='image7'></img>
                             </Carousel.Item>
                         </Carousel>
                     </Col>
@@ -48,15 +48,15 @@ const VehiclePage3 = () => {
                             <tbody>
                                 <tr>
                                     <td>Make</td>
-                                    <td>Lexus</td>
+                                    <td>Cadillac</td>
                                 </tr>
                                 <tr>
                                     <td>Model</td>
-                                    <td>LFA</td>
+                                    <td>Escalade Limousine</td>
                                 </tr>
                                 <tr>
                                     <td>Year</td>
-                                    <td>2012</td>
+                                    <td>2015</td>
                                 </tr>
                                 <tr>
                                     <td>Engine type</td>
@@ -64,15 +64,15 @@ const VehiclePage3 = () => {
                                 </tr>
                                 <tr>
                                     <td>Cylinders</td>
-                                    <td>10</td>
+                                    <td>8</td>
                                 </tr>
                                 <tr>
                                     <td>Volume</td>
-                                    <td>4.8L</td>
+                                    <td>6.28L</td>
                                 </tr>
                                 <tr>
                                     <td>Transmission</td>
-                                    <td>Manual Robotic</td>
+                                    <td>Automatic</td>
                                 </tr>
                                 <tr>
                                     <td>Drive Train</td>
@@ -80,30 +80,30 @@ const VehiclePage3 = () => {
                                 </tr>
                                 <tr>
                                     <td>Top Speed</td>
-                                    <td>325 km/h</td>
+                                    <td>N/A</td>
                                 </tr>
                                 <tr>
                                     <td>Horsepower</td>
-                                    <td>562</td>
+                                    <td>N/A</td>
                                 </tr>
                                 <tr>
                                     <td>Body type</td>
-                                    <td>Coupe</td>
+                                    <td>Stretch SUV</td>
                                 </tr>
                                 <tr>
                                     <td>Color</td>
-                                    <td>Black</td>
+                                    <td>White</td>
                                 </tr>
                             </tbody>
                         </Table>
                         <Button size='lg' onClick={(event) => handleButton(event.target.value)} style={{width:'49%', marginBottom:10, marginTop:10, marginRight:2}}> Back </Button>
-                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2#/Reserve"> Reserve Now </Button>
+                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2_done#/Reserve"> Reserve Now </Button>
                     </Col>
                     <Col md={1}></Col>
                     <Col md={4}>
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sOKbmdRKoU0" style={{width:'100%', height:'50%', paddingBottom: 10}}></iframe>
-                        <p style={{color:"white"}}>There's nothing like the sound of a V10, but there's really nothing at all like the sound of the Lexus LFA. So, when you're using only 3.6 seconds to get to 60 mph, and revving the LFA all the way to 9000 rpm before switching to the next gear, you can thank not only Toyota but sound and engineering experts at Yamaha for the performance and sound you'll be treated to along the way.</p>
-                        <p style={{color:"white"}}><strong> Rental Price: $200 per day <br></br>Insurance Cost: $100 per day</strong></p>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eTqAWrQ9gZ4" style={{width:'100%', height:'50%', paddingBottom: 10}}></iframe>
+                        <p style={{color:"white"}}>There's no such thing as too much of a good thing.  It always leaves you wanting more.  And our 20-passenger Cadillac Escalade stretch SUV limo is no exception.The high-output premium audio/video entertainment system, LED ceiling and floor lighting and laser and strobe effects will have you rockin down the road.  And the RGB ground effects lighting and jet door will help ensure you make a grand entrance.</p>
+                        <p style={{color:"white"}}><strong> Rental Price: $350 per day <br></br>Insurance Cost: $100 per day</strong></p>
                     </Col>
                 </Row>
             </Container>

@@ -2,25 +2,25 @@ import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-const ServicesPage = () => {
+const ServicesPageFr = () => {
     window.scrollTo(0, 0);
     return ( 
         <div className="services">
             <Container fluid className='d-flex align-items-end justify-content-end'>
-                <Button variant='dark' href="/vikrantkumar_seg3125_project2_done/#/ServicesFr" style={{marginTop:5, marginBottom:-15, marginRight:-5,fontFamily:"serif", width:60, height:40, borderRadius:'50px'}}>FR</Button>
+                <Button variant='dark' href="/vikrantkumar_seg3125_project2_done/#/Services" style={{marginTop:5, marginBottom:-15, marginRight:-5,fontFamily:"serif", width:60, height:40, borderRadius:'50px'}}>EN</Button>
             </Container>
-            <h1 className="text-center" style={{fontFamily:"serif", marginTop:15}}><strong> Our Services </strong></h1>
+            <h1 className="text-center" style={{fontFamily:"serif", marginTop:15}}><strong> Nos Services </strong></h1>
             <Container fluid style={{fontFamily:"serif"}} >
                 <Row className='bg-dark' md={true} style={{marginBottom:15, padding:20}}>
                     <Col md={true} className='d-flex align-items-center justify-content-center'>
                         <Card style={{width: '43rem'}}>
                             <Card.Img src={require("./Images/wed.jpg")} variant='top' style={{width: '42.8rem', height:'28rem'}}></Card.Img>
                             <Card.Body>
-                                <Card.Title> Weddings </Card.Title>
+                                <Card.Title> Mariages </Card.Title>
                                 <Card.Text>
-                                    Your wedding is the only thing that matters, bride and groom alike are welcome to explore our excellent array of cars available to amplify your celebration. Ask us about our white or other color collection, as we have a wide selection that is sure to make your day truly special, starting at only $99.00 per day. Reserve your perfect wedding day car today! The vehicle comes decorated with a chauffeur if needed.
+                                    Votre mariage est la seule chose qui compte, les mariés sont les bienvenus pour explorer notre excellente gamme de voitures disponibles pour amplifier votre célébration. Renseignez-vous sur notre collection de blanc ou d'autres couleurs, car nous avons une large sélection qui rendra votre journée vraiment spéciale, à partir de seulement 99,00 $ par jour. Réservez dès aujourd'hui votre voiture idéale pour le mariage ! Le véhicule est agrémenté d'un chauffeur si besoin.
                                 </Card.Text>
-                                <Button href="/vikrantkumar_seg3125_project2_done#/Reserve"> RESERVE NOW</Button>
+                                <Button href="/vikrantkumar_seg3125_project2_done#/Reserve"> RÉSERVEZ MAINTENANT </Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -28,11 +28,11 @@ const ServicesPage = () => {
                         <Card style={{width: '43rem'}}>
                             <Card.Img src={require("./Images/grad.jpg")} variant='top' style={{width: '42.9rem', height:'28rem'}}></Card.Img>
                             <Card.Body>
-                                <Card.Title> Graduation and Prom </Card.Title>
+                                <Card.Title> Remise Des Diplômes Et Bal </Card.Title>
                                 <Card.Text>
-                                    One of the most important days for our kids is the end of school and the start of adulthood. On this important day, make it unique with a prestigious vehicle from Exotic Drives! Better yet, still, come rent that perfect car and enjoy it for a whole day; yes, we offer that ideal graduation and prom car, starting at only $50 per day! Reserve your perfect graduation and prom car today! The vehicle comes decorated with a chauffeur if needed. 
+                                    L'un des jours les plus importants pour nos enfants est la fin de l'école et le début de l'âge adulte.En ce jour important,rendez-le unique avec un véhicule prestigieux d'Exotic Drives! Mieux encore, venez louer cette voiture parfaite et profitez-en pendant toute une journée; oui,nous offrons cette voiture idéale des finissants, à partir de seulement 50$ par jour! Réservez votre voiture de parfaite dès aujourd'hui! Le véhicule est agrémenté d'un chauffeur si besoin. 
                                 </Card.Text>
-                                <Button href="/vikrantkumar_seg3125_project2_done#/Reserve"> RESERVE NOW</Button>
+                                <Button href="/vikrantkumar_seg3125_project2_done#/Reserve"> RÉSERVEZ MAINTENANT </Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -43,11 +43,11 @@ const ServicesPage = () => {
                         <Card style={{width: '43rem'}}>
                             <Card.Img src={require("./Images/ads.jpg")} variant='top'></Card.Img>
                             <Card.Body>
-                                <Card.Title> Cinema and Advertisements </Card.Title>
+                                <Card.Title> Cinéma Et Publicités </Card.Title>
                                 <Card.Text>
-                                    Do you need a vehicle for a film or advertising production? Our exotic vehicles will be perfect, both in front of and behind the camera, to meet the needs of members of the production team.
+                                    Vous avez besoin d'un véhicule pour une production cinématographique ou publicitaire ? Nos voitures seront parfaites, devant et derrière la caméra, pour répondre aux besoins de l'équipe de production.
                                 </Card.Text>
-                                <Button href="/vikrantkumar_seg3125_project2_done#/Reserve"> RESERVE NOW</Button>
+                                <Button href="/vikrantkumar_seg3125_project2_done#/Reserve"> RÉSERVEZ MAINTENANT </Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -55,11 +55,11 @@ const ServicesPage = () => {
                         <Card style={{width: '43rem'}}>
                             <Card.Img src={require("./Images/cor.jpg")} variant='top' style={{height: 385}}></Card.Img>
                             <Card.Body>
-                                <Card.Title> Corporate </Card.Title>
+                                <Card.Title> Entreprise </Card.Title>
                                 <Card.Text>
-                                    Want to make a splash advertising? We can customize our cars to the colours of your company. Do things big and expose yourself!
+                                    Vous voulez faire une publicité splash? Nous pouvons personnaliser nos voitures aux couleurs de votre entreprise. Faites les choses en grand et exposez-vous!
                                 </Card.Text>
-                                <Button href="/vikrantkumar_seg3125_project2_done#/Reserve"> RESERVE NOW</Button>
+                                <Button href="/vikrantkumar_seg3125_project2_done#/Reserve"> RÉSERVEZ MAINTENANT </Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -69,4 +69,4 @@ const ServicesPage = () => {
     );
 }
  
-export default ServicesPage;
+export default ServicesPageFr;

@@ -98,13 +98,13 @@ const VehiclePage3 = () => {
                             </tbody>
                         </Table>
                         <Button size='lg' onClick={(event) => handleButton(event.target.value)} style={{width:'49%', marginBottom:10, marginTop:10, marginRight:2}}> Back </Button>
-                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2#/Reserve"> Reserve Now </Button>
+                        <Button size='lg' style={{width:'49%', marginBottom:10, marginTop:10}} href="/vikrantkumar_seg3125_project2_done#/Reserve"> Reserve Now </Button>
                     </Col>
                     <Col md={1}></Col>
                     <Col md={4}>
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PiWn2AIqqEA" style={{width:'100%', height:'50%', paddingBottom: 10}}></iframe>
                         <p style={{color:"white"}}>It's not easy for a company like Lamborghini to go even further towards the cutting edge of innovation than it already is, but the Aventador SVJ managed that. Thanks to 759 horsepower and an all-new active aerodynamics system that Lamborghini developed just for the SVJ, it has the record for the fastest production car lap around the Ring under its belt as we speak.</p>
-                        <p style={{color:"white"}}><strong> Rental Price: $350 per day <br></br>Insurance Cost: $150 per day</strong></p>
+                        <p style={{color:"white"}}><strong> Rental Price: $750 per day <br></br>Insurance Cost: $250 per day</strong></p>
                     </Col>
                 </Row>
             </Container>
